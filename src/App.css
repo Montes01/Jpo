@@ -1,0 +1,101 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: black;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav ul li a {
+  color: white;
+}
+
+nav {
+  width: 40%;
+
+  & ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    & li {
+      width: 100%;
+
+      & a {
+        text-decoration: none;
+        list-style: none;
+      }
+    }
+  }
+}
+
+#contenido-principal {
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+  background: linear-gradient(90deg, #000, #0000ff);
+}
+
+/* Estilos del header */
+#header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#nombre {
+  color: white;
+}
+
+/* Estilos del contenido principal */
+#contenido-principal {
+  flex-grow: 1;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+}
+
+/* Estilos del footer */
+#footer {
+  text-align: center;
+  background-color: #222;
+  color: #fff;
+  padding: 10px 0;
+}
+
+/* Estilos para los títulos */
+
+
+/* Estilos para los proyectos */
+.proyecto {
+  margin: 20px 0;
+  padding: 10px;
+  color: black;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Estilos para la lista de habilidades */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Estilos para los enlaces de contacto */
+#correo {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#correo:hover {
+  text-decoration: underline;
+}
