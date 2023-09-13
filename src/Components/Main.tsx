@@ -10,12 +10,14 @@ export const Main = () => {
     <section id="proyectos">
       <h2>Proyectos Destacados</h2>
       <div className="proyecto">
-        <h3>Proyecto 1</h3>
-        <p>Descripción del proyecto 1.</p>
+        <h3>Blueasy</h3>
+        <p>Blueasy es un proyecto de una pagina azul la cual contiene un contenido con un tono azul y blanco</p>
+        <a href="">miralo aqui</a>
       </div>
       <div className="proyecto">
-        <h3>Proyecto 2</h3>
-        <p>Descripción del proyecto 2.</p>
+        <h3>Music</h3>
+        <p>Music es un proyecto el cual tiene una amplia gama de colores</p>
+        <a href="">miralo aqui</a>
       </div>
     </section>
 
