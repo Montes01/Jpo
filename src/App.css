@@ -99,3 +99,31 @@ ul {
 #correo:hover {
   text-decoration: underline;
 }
+
+
+.project {
+  width: 25%;
+  background: linear-gradient(90deg,
+   #000, #0000ff);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 15px;
+  
+  & img {
+    width: 30%;
+  }
+}
+
+.products {
+  overflow: hidden;
+  justify-content: space-between;
+  display: flex;
+  width: 100vw; 
+  flex-wrap: wrap;
+}
